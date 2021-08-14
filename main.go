@@ -6,5 +6,5 @@ func main() {
 	cards := newDeck()
 	cards.saveToFile("myCards")
 
-	fmt.Println(newDeckFromFile("hello"))
+	fmt.Println(newDeckFromFile("myCards"))
 }
